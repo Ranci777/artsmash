@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site de Artes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .portfolio {
+            padding: 20px;
+        }
+        .portfolio h2 {
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 200px;
+            margin: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site de Artes</h1>
+        <nav>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section id="portfolio" class="portfolio">
+        <h2>Portfólio</h2>
+        <div class="gallery">
+            <img src="imagem1.jpg" alt="Imagem 1">
+            <img src="imagem2.jpg" alt="Imagem 2">
+            <img src="imagem3.jpg" alt="Imagem 3">
+            <!-- Adicione mais imagens conforme necessário -->
+        </div>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre</h2>
+        <p>Esta é uma breve descrição sobre mim e meu trabalho artístico.</p>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Você pode me contatar em example@email.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Meu Site de Artes</p>
+    </footer>
+</body>
+</html>
